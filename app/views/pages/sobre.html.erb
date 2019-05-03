@@ -1,0 +1,11 @@
+<p>Este site foi desenvolvido para a empresa iCasei, como parte do processo seletivo. </p>
+<h2>Usuarios cadastrados</h2>
+<% @contatos.each do |contato| %> 
+<p>NOME: <%= contato.nome %></p>
+<p>EMAIL: <%=  contato.email %></p>
+<%= link_to '[X]', page_path(contato),
+					method: :delete,
+					data: {confirm: 'Você deseja deletar este contato?'} %>
+<hr>
+
+<% end %>

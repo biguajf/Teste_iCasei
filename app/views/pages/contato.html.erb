@@ -1,0 +1,19 @@
+<h2>Insira um contato</h2>
+<%= form_for :contato , url: pages_path do |f| %>
+	<% if @contato.errors.any? %>
+		<% @contato.errors.full_messages.each do |msg| %>
+			<div class="alert alert-danger"><%= msg %> </div>
+		<% end %>
+	<% end %>
+	<p>
+		<%= f.label :nome %><br>
+		<%= f.text_field(:nome,{:class => 'form-control'}) %>
+	</p>
+	<p>
+		<%= f.label :email %><br>
+		<%= f.text_field(:email,{:class => 'form-control'}) %>
+	</p>
+	<p>
+		<%= f.submit({:clas => 'btn btn-primary'}) %>
+	</p>
+<% end %>
