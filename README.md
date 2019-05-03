@@ -53,7 +53,7 @@ Check the Rails and Ruby versions:
 
 		$ rails db:drop:_unsafe 
 		$ rake db:create
-		$ rake db:achema:load
+		$ rake db:schema:load
 
 
 4. Start the web server:
