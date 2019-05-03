@@ -11,15 +11,16 @@ The JavaScript library generated to track the users is in the folder app/assets/
 
 1. Install Rails if you haven't yet:
     
-    	[Rails Installer](http://railsinstaller.org/pt-BR)
-		Follow all recommendations
+- [Rails Installer](http://railsinstaller.org/pt-BR)</br>
 
-		Unzip the test_iCasei-master file in the C:\Sites, directory generated in the Rails installation
+- Follow all recommendations</br>
 
-    	The version used in this test was:
-    	-   Windows 10
-        -	Rails version: 5.2.3
-		-	Ruby version: 2.6.3 (x64-mingw32)
+- Unzip the test_iCasei-master file in the C:\Sites, directory generated in the Rails installation</br>
+
+- The version used in this test was: </br>
+    	-   Windows 10 </br>
+        -	Rails version: 5.2.3 </br>
+		-	Ruby version: 2.6.3 (x64-mingw32) </br>
 		
 
 2. Open the C:\Sites folder, right-click the test_iCasei-master folder, and click GIT Bash Here:
