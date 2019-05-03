@@ -1,4 +1,4 @@
-# TesteIcasei developed by Julio
+# Teste iCasei developed by Julio
 
 ## User tracking application
 
